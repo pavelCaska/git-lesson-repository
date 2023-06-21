@@ -1,0 +1,240 @@
+    1  git help
+    2  git --version
+    3  git config --global user.name "pavelCaska"
+    4  git config --global user.email "info@pavelcaska.eu"
+    5  git config --list
+    6  git config --list
+    7  git status
+    8  ls -al ~/.ssh
+    9  ssh -T git@github.com
+   10  yes
+   11  ssh-agent -s
+   12  git --version
+   13  git log
+   14  exit
+   15  pwd
+   16  ls -la
+   17  mkdir greenfox
+   18  cd greenfox
+   19  ls -la
+   20  pwd
+   21  ls -la
+   22  mkdir images
+   23  ls -la
+   24  ls
+   25  mkdir css
+   26  ls
+   27  cd ..
+   28  ls
+   29  ls -la
+   30  ls -la -r
+   31  ls --help
+   32  ls -la -R
+   33  touch index.html
+   34  ls -la -R
+   35  cat index.html
+   36  vim index.html
+   37  cat index.html
+   38  cd css/
+   39  pwd
+   40  mv index.html[B greenfox/
+   41  ls
+   42  ls -R
+   43  cd css/
+   44  cd --help
+   45  pwd
+   46  cd greenfox/
+   47  ls
+   48  cd css/
+   49  ls
+   50  ls -R
+   51  cat style.css
+   52  touch style.css
+   53  cat style.css
+   54  vim 
+   55  vim style.css
+   56  cat style.css
+   57  pwd
+   58  cd /
+   59  pwd
+   60  ls
+   61  ls -R
+   62  ls -la
+   63  cd ~
+   64  pwd
+   65  cd c/
+   66  cd c:/
+   67  pwd
+   68  cd xampp/
+   69  pwd
+   70  cd xampp/htdocs
+   71  cd htdocs
+   72  pwd
+   73  ls
+   74  cd gfa-git
+   75  cd greenfox
+   76  cd images
+   77  pwd
+   78  touch img.gif
+   79  ls 
+   80  cd..
+   81  cd ..
+   82  pwd
+   83  mkdir first-task
+   84  cd ..
+   85  pwd
+   86  cd greenfox
+   87  pwd
+   88  mv * first-task/
+   89  ls -la -R
+   90  mv index.html first-task/
+   91  ls -la -R
+   92  pwd
+   93  mv index.html ./first-task/
+   94  cat index.html[A
+   95  pwd
+   96  ls
+   97  cd first-task
+   98  pwd
+   99  ls
+  100  pwd
+  101  cd .
+  102  pwd
+  103  cd ..
+  104  pwd
+  105  clear
+  106  mkdir hello-world
+  107  la
+  108  ls
+  109  cd hello-world
+  110  git init
+  111  touch new-file.txt
+  112  vim new-file.txt
+  113  cat new-file.txt
+  114  vim new-file.txt
+  115  mv new-file.txt readme.txt
+  116  ls
+  117  cat readme.txt
+  118  git status
+  119  git add .
+  120  git status
+  121  git commit -m "Created readme"
+  122  git status
+  123  vim readme.txt
+  124  git diff
+  125  git add readme.txt
+  126  git status
+  127  git commit -m "greeting changed"
+  128  ls
+  129  vim ./git/config
+  130  git config --global user.pavelCaska
+  131  vim ./git/config
+  132  git config --global user.username
+  133  git config --global user.username <pavelCaska>
+  134  vim ./git/config
+  135  git config --global user.username
+  136  git config
+  137  git config --global user.username pavelCaska
+  138  git config --global user.username
+  139  pwd
+  140   git remote add origin https://github.com/pavelCaska/hello-world.git
+  141   git remote add origin https://github.com/pavelCaska/hello-world.git
+  142  git remote set-url origin https://github.com/pavelCaska/hello-world.git
+  143  git status
+  144   git remote add origin git@github.com:pavelCaska/hello-world.git
+  145  git branch -M main
+  146  git remote add origin git@github.com:pavelCaska/hello-world.git
+  147  git push -u origin main
+  148  git remote -v
+  149  git pull
+  150  git status
+  151  cd ..
+  152  pwd
+  153  git clone patchwrok
+  154  git clone patchwork
+  155  git clone git@github.com:pavelCaska/patchwork.git
+  156  git remote -v
+  157  cd ./patchwork
+  158  pwd
+  159  git remote -v
+  160  git remote add upstream https://github.com/jlord/patchwork.git
+  161  git remote -v
+  162  cd ..
+  163  pwd
+  164  git clone git@github.com:pavelCaska/git-lesson-repository
+  165  ls
+  166  cd git-lesson-repository
+  167  pwd
+  168  ls -la
+  169  cp index.html about.html
+  170  ls -la
+  171  mkdir temp_images
+  172  ls -la -R
+  173  cp ./images/1.jpg ./temp_images/
+  174  ls -la -R
+  175  cp ./images/2.jpg ./temp_images/
+  176  ls -la -R
+  177  cp ./images/* ./temp_images/
+  178  ls -la -R
+  179  mv ./css/6.jpg ./images
+  180  ls -la -R
+  181  rm ./css/7.jpg
+  182  ls -la -R
+  183  pwd
+  184  git add .
+  185  git status
+  186  git commit -m "Manipulations finished"
+  187  git push
+  188  git status
+  189  history
+  190  cd ..
+  191  pwd
+  192  echo "Hello World!" > greetings.txt
+  193  ls
+  194  cat greetings.txt
+  195  cat greetings.txt > greetings2.txt
+  196  ls
+  197  cat greetings2.txt
+  198  cat greetings2.txt | wc
+  199  wc index.html
+  200  cd ./git-lesson-repository
+  201  pwd
+  202  wc index.html
+  203  cat index.html
+  204  mv ../*.txt ./
+  205  ls
+  206  vim greetings.txt
+  207  sort greetings.txt
+  208  sort greetings.txt > greetings_sorted.txt
+  209  cat greetings_sorted.txt
+  210  cat tasks.txt
+  211  cp tasks.txt tasks.org
+  212  ls
+  213  sort -u tasks.txt > tasks.txt
+  214  cat tasks.txt
+  215  cp tasks.org tasks.txt
+  216  cat tasks.txt
+  217  sort -u tasks.txt
+  218  sort -u tasks.txt | cp tasks_uniq.txt
+  219  sort -u tasks.txt | cp tasks.txt tasks_uniq.txt
+  220  cat tasks?uniq.txt
+  221  cat tasks_uniq.txt
+  222* 
+  223  sort -u tasks.txt > tasks2.txt
+  224* 
+  225  sort -u tasks.txt > tasks2.txt | mv tasks2.txt tasks.txt
+  226  cat tasks.txt
+  227  grep --help
+  228  print --help
+  229  grep basic tasks.txt
+  230  cat tasks.txt
+  231  grep basic tasks.txt > print_basic.txt
+  232  cat print_basic.txt
+  233  grep -v basic tasks.txt > print_non-basic.txt
+  234  cat print_non-basic.txt
+  235  git add .
+  236  git status
+  237  git commit -m "Redirection finished"
+  238  git push
+  239  git status
+  240  history > bash_history.txt
